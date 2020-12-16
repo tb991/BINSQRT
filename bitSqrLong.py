@@ -30,14 +30,14 @@ def sqr(x): # rightmost is LSB
     binCountsUnary = (len(x) + len(x))*[""]
     pureBinaryResult = (len(x) + len(x))*[0] # this is the main output everything else is auxiliary to the programming/debugging
     ## debug section
-    for x in mult_table:
-        print(x)
+    ##for x in mult_table:
+        ##print(x)
     ## end debug section
-    input("progpaused")
+    ##input("progpaused")
     for i in range(len(mult_table[0])-1,0,-1): # stuck in this loop for large inputs () tick if fixed
         ##binary_to_unary_variable = binary_chart
         ##print(binary_to_unary_variable)
-        print("end of currnum unit")
+        ###print("end of currnum unit")
         for j in range(0,len(mult_table)):
             if mult_table[j][i]=="1":
                 ##unary_accumulator = unary_accumulator + binary_to_unary_variable
